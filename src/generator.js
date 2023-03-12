@@ -66,7 +66,7 @@ function saveIndexPage() {
 function getPage(list, description, hasTwitterCard) {
   const cardHtml = getCards(list);
   const h1 = "chatgpt-p5-generative-art";
-  const title = "chatgpt-p5.generative-art";
+  const title = "chatgpt-p5-generative-art";
   return `
 <!DOCTYPE html>
 <html lang="en">
